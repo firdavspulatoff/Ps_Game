@@ -1,0 +1,54 @@
+{
+  "id": 13,
+  "name": "Call of Duty: Modern Warfare 3",
+  "category": "PS3",
+  "descrition": "Call of Duty: Modern Warfare 3 — мультиплатформенная компьютерная игра в жанре шутер от первого лица, сиквел Call of Duty: Modern Warfare 2, восьмая игра в серии Call of Duty",
+  "status": 10,
+  "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/115300/capsule_616x353.jpg?t=1646849563",
+  "data": "25.03.2012"
+ },
+ {
+  "id": 14,
+  "name": "Assassin’s Creed",
+  "category": "PS3",
+  "descrition": "Assassin’s Creed Rogue — компьютерная игра из серии Assassin’s Creed в жанре action-adventure с элементами стелс-экшена, которую разработала компания Ubisoft ",
+  "status": 9,
+  "img": "https://upload.wikimedia.org/wikipedia/ru/c/c5/AC_Rogue_cover.jpg",
+  "data": "10 марта 2015 года."
+ },
+ {
+  "id": 15,
+  "name": "Mortal Kombat Komplete Edition",
+  "category": "PS3",
+  "descrition": "Mortal Kombat — мультиплатформенная компьютерная игра в жанре файтинг, разработанная компанией NetherRealm Studios и изданная Warner Bros. Interactive Entertainment. Это девятая по счёту игра в основной серии Mortal Kombat, которая представляет собой риквел франшизы.",
+  "status": 10,
+  "img": "https://static.wikia.nocookie.net/mortalkombat/images/0/09/Mortal_kombat_logo.jpg/revision/latest?cb=20120930125956&path-prefix=ru",
+  "data": "14 июня 2010"
+ },
+ {
+  "id": 16,
+  "name": "EyePet",
+  "category": "PS3",
+  "descrition": "Переведено с английского языка.-EyePet — игра для PlayStation 3 и PlayStation Portable, разработанная London Studio и Playlogic Game Factory. Первоначальная версия для PlayStation 3 была выпущена в Европе 23 октября 2009 г. и в Австралии 27 октября 2009 г.",
+  "status": 7,
+  "img": "https://retromagaz.com/uploads/products/1f/93/site_f3nn6fco6_e7b5fca4.png",
+  "data": "23 октября 2009 г."
+ },
+ {
+  "id": 17,
+  "name": "FIFA 13",
+  "category": "PS3",
+  "descrition": "FIFA 13 — двадцатая футбольная игра из серии игр FIFA. Релиз консольной версии состоялся 27 сентября 2012 года.",
+  "status": 8,
+  "img": "https://upload.wikimedia.org/wikipedia/ru/d/d9/FIFA_13.jpg",
+  "data": "25 Сентября 2012"
+ },
+ {
+  "id": 18,
+  "name": "Killzone 2",
+  "category": "PS3",
+  "descrition": "Killzone 2 — видеоигра в жанре шутера от первого лица, разработанная студией Guerrilla Games и изданная компанией Sony Computer Entertainment для консоли PlayStation 3. ",
+  "status": 8,
+  "img": "https://upload.wikimedia.org/wikipedia/ru/1/16/Killzone_2.jpg",
+  "data": "24 февраля 2009 года."
+ }
