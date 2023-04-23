@@ -23,6 +23,7 @@ function App() {
   const isAuth = useSelector((state) => state.user.isAuth);
   const dispatch = useDispatch();
   const navigate = useNavigate();
+  console.log();
   useEffect(() => {
     const checkUserSelf = async () => {
       try {
@@ -39,7 +40,9 @@ function App() {
         if (!error?.response?.data?.isOk) navigate("/auth/signin");
       }
     };
-    checkUserSelf();
+    if (window.location.pathname !== "/auth/signup") {
+      checkUserSelf();
+    }
   }, []);
   return (
     <>

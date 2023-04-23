@@ -7,10 +7,19 @@ import giftcard_logo from "../img/giftcard_logo.svg";
 import deals_logo from "../img/deals_logo.svg";
 import cart_logo from "../img/cart-logo.svg";
 import about_logo from "../img/about_logo.svg";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
+import { setUser } from "../slices/userSlice";
 
 const Catalog = () => {
   const user = useSelector((state) => state.user.user);
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
+  const onLogout = (req, res, next) => {
+    localStorage.removeItem("jwt");
+    navigate("/auth/signin");
+    dispatch(setUser({ user: {}, isOk: false }));
+  };
   return (
     <div className="catalog">
       <div className="search">
@@ -61,6 +70,7 @@ const Catalog = () => {
             <h1 style={{ color: "red" }}>
               {user.firstName} {user.lastName}
             </h1>
+            <button onClick={onLogout}>Logout</button>
           </li>
         </ul>
       </div>
